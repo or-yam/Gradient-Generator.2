@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gradient Generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="mainBody">
+	<h1>Gradient Color Generator</h1>
+	<div id="demoColor"></div>
+	<h3></h3>
+
+	<div id="buttonsContainer">
+		
+		<div id="inputContainer">
+			<p>Pick Colors</p>
+			<ul>
+			<li><input  type="color" name="color1" value="#224458" class="color1"></li>
+			<li><input  type="color" name="color2" value="#ffff00" class="color2"></li>
+			<li><button class="btn" id="randBoth" onclick="randomGradient()" >Shuffle Colors</button></li>
+			<li><button class="btn" id="randFirst" onclick="randomColorOne()" >Shuffle Color 1</button></li>
+			<li><button class="btn" id="randSecond" onclick="randomColorTow()" >Shuffle Color 2</button></li>
+			</ul>
+		</div>
+		<div id="diractionContainer">
+			<p>Pick Diraction</p>
+			<ul>
+				<li><button class="btn" id="upLeft" onclick="randomGradient()" ><img src="imgs/arrow-1-up-left.png"></button></li>
+				<li><button class="btn" id="up" onclick="up()" ><img src="imgs/arrow-1-up.png"></button></li>
+				<li><button class="btn" id="upRight" onclick="randomGradient()" ><img src="imgs/arrow-1-up-right.png"></button></li>
+				<li><button class="btn" id="left" onclick="randomGradient()" ><img src="imgs/arrow-1-left.png"></button></li>
+				<li><button class="btn" id="randDiraction" onclick="rndDiraction()" >Shuffle</button></li>	
+				<li><button class="btn" id="right" onclick="randomGradient()" ><img src="imgs/arrow-1-right.png"></button></li>
+				<li><button class="btn" id="downLeft" onclick="randomGradient()" ><img src="imgs/arrow-1-down-left.png"></button></li>
+				<li><button class="btn" id="down" onclick="randomGradient()" ><img src="imgs/arrow-1-down.png"></button></li>
+				<li><button class="btn" id="downRight" onclick="randomGradient()" ><img src="imgs/arrow-1-down-right.png"></button></li>
+			</ul>	
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
