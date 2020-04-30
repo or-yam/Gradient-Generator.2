@@ -1,5 +1,6 @@
 # Color Gradient Generator V2
-A javaScript, css, html project.
+### A simple color gradient generator that provides a CSS code.
+#### A javaScript, css, html project.
 
 
 
